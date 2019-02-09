@@ -17,8 +17,10 @@
               android:id="@+id/size"/>
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:id="@+id/type"/>
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="Request" android:id="@+id/btn_request"/>
+    <Button android:id="@+id/btn_fileSelect" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="FileSelectActivity"/>
+    <Button android:id="@+id/btn_document" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="DocumentProvider" />
     <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
                android:id="@+id/image"/>
 
